@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug trim-mp3-cover-art",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin",
+          "trim-mp3-cover-art"
+        ]
+      },
+      "args": [
+        ".\\test_music"
+      ],
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "sourceLanguages": ["rust"]
+    }
+  ]
+}

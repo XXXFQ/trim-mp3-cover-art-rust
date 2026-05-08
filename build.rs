@@ -1,0 +1,11 @@
+fn main() {
+    #[cfg(target_os = "windows")]
+    {
+        let mut res = winresource::WindowsResource::new();
+
+        res.set_icon("assets/trim_mp3_icon.ico");
+
+        res.compile()
+            .expect("failed to compile Windows resource");
+    }
+}
