@@ -476,4 +476,4 @@ trim-mp3-cover-art/
 
 ## ライセンス
 
-© 2025 ARM
+© 2026 ARM
